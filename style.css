@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+
+.first{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid rgb(152, 152, 152);
+    display: flex;
+    align-items: center;
+}
+
+.company{
+    width: 20%;
+}
+
+.company img{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.firsttext{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.firsttext p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(98, 98, 98);
+    vertical-align: middle;
+    line-height: 100px;
+}
+.firsttext p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.menu{
+    width: 20%;
+    margin-left: 50px;
+}
+.menu img{
+    padding: 0px 15px;
+}
+.menu img:hover{
+    cursor: pointer;
+}
+
+
+.second{
+    width: 1125px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+.secondtext{
+    width: 50%;
+    height: 400px;
+    margin-top: 50px;
+}
+.secondtext h1{
+    font-size: 48px;
+}
+.redh1{
+    color: #EE4248;
+}
+.secondtext p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.second button{
+    padding: 12px 32px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #EE4248;
+    border: none;
+}
+.second button:hover{
+    cursor: pointer;
+    background-color: #d13a3f;
+}
